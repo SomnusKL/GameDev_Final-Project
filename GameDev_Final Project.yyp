@@ -4,6 +4,7 @@
   "name": "GameDev_Final Project",
   "resources": [
     {"id":{"name":"oGunStart","path":"objects/oGunStart/oGunStart.yy",},"order":15,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayer_Run","path":"sprites/sPlayer_Run/sPlayer_Run.yy",},"order":7,},

@@ -8,4 +8,8 @@ view_h_half = camera_get_view_height(cam)/2;
 xTo = xstart;
 yTo = ystart;
 
-audio_play_sound(Background,6,true);
+
+shake_length = 60;
+shake_magnitude = 6;
+shake_remain = 6;
+buff = 32;

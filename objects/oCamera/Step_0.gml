@@ -13,9 +13,16 @@ x += (xTo - x) / 25;
 y += (yTo - y) / 25;
 
 
-x = clamp(x, view_w_half,room_width - view_w_half);
+x = clamp(x, view_w_half+buff,room_width - view_w_half-buff);
 
-y = clamp(y, view_w_half-100,room_height - view_w_half +150);
+y = clamp(y, view_w_half-100+buff,room_height - view_w_half +150-buff);
+
+
+//screenshake
+x+= random_range(-shake_remain,shake_remain);
+y+= random_range(-shake_remain,shake_remain);
+
+shake_remain = max(0,shake_remain-((1/shake_length)*shake_magnitude));
 
 
 //Update camera view
