@@ -8,4 +8,4 @@ view_h_half = camera_get_view_height(cam)/2;
 xTo = xstart;
 yTo = ystart;
 
-//audio_play_sound(Background,6,true);
+audio_play_sound(Background,6,true);
