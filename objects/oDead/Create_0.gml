@@ -9,3 +9,4 @@ done = 0;
 
 hitfrom = 0;
 
+ScreenShake(6,25);
