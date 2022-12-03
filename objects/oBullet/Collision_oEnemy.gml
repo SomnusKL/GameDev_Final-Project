@@ -5,6 +5,7 @@
 with (other)
 {
 	hp = hp - 1;
+	flash = 3;
 	hitfrom = other.direction;
 	audio_play_sound(soundHit,1,false);
 }

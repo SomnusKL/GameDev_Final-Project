@@ -13,6 +13,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
     {"id":{"name":"oPlayerStart","path":"objects/oPlayerStart/oPlayerStart.yy",},"order":13,},
     {"id":{"name":"soundJump","path":"sounds/soundJump/soundJump.yy",},"order":2,},
+    {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":14,},
     {"id":{"name":"Room_L3","path":"rooms/Room_L3/Room_L3.yy",},"order":7,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},

@@ -6,7 +6,8 @@ grv = 0.3;
 walksp = 0;
 hsp = walksp;
 
-hp = 3;
+hp = 4;
+flash = 0;
 hitfrom = 0;
  
 
