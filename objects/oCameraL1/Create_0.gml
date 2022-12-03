@@ -10,6 +10,6 @@ yTo = ystart;
 
 
 shake_length = 60;
-shake_magnitude = 6;
-shake_remain = 6;
+shake_magnitude = 8;
+shake_remain = 8;
 buff = 32;
