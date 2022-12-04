@@ -25,12 +25,15 @@ if (mode != TRANS_MODE.OFF)
 			{
 				mode = TRANS_MODE.INTRO
 				room_goto_next();
+	
 				break;	
 			}
 			case TRANS_MODE.GOTO:
 			{
 				mode = TRANS_MODE.INTRO;
+				audio_play_sound(soundDoor,1,false);
 				room_goto(target);
+				
 				break;	
 			}
 			case TRANS_MODE.RESTART:

@@ -3,7 +3,7 @@
 
 
 if(global.getKey)&&(place_meeting(x,y,oPlayer)){
-	audio_play_sound(soundDoor,1,false);
-	room_goto(Room_success);
+
+	SlideTransition(TRANS_MODE.GOTO,target);
 	show_debug_message("Opens the door");
 }
