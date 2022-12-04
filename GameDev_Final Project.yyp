@@ -59,6 +59,7 @@
     {"id":{"name":"sEnemy_Run","path":"sprites/sEnemy_Run/sEnemy_Run.yy",},"order":2,},
     {"id":{"name":"sRoom","path":"sprites/sRoom/sRoom.yy",},"order":11,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":25,},
     {"id":{"name":"oDoorL1","path":"objects/oDoorL1/oDoorL1.yy",},"order":18,},
     {"id":{"name":"oKeyL1","path":"objects/oKeyL1/oKeyL1.yy",},"order":21,},
     {"id":{"name":"Room_L2","path":"rooms/Room_L2/Room_L2.yy",},"order":6,},
