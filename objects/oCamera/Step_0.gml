@@ -15,7 +15,7 @@ y += (yTo - y) / 25;
 
 x = clamp(x, view_w_half+buff,room_width - view_w_half-buff);
 
-y = clamp(y, view_w_half-100+buff,room_height - view_w_half +150-buff);
+y = clamp(y, view_w_half-100+buff,room_height - view_w_half +100-buff);
 
 
 //screenshake
