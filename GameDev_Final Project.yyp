@@ -8,6 +8,7 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayer_Run","path":"sprites/sPlayer_Run/sPlayer_Run.yy",},"order":7,},
+    {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":1,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},
     {"id":{"name":"RoomStart","path":"rooms/RoomStart/RoomStart.yy",},"order":4,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
@@ -66,7 +67,6 @@
     {"id":{"name":"sEnemeyStart","path":"sprites/sEnemeyStart/sEnemeyStart.yy",},"order":16,},
     {"id":{"name":"soundJump2","path":"sounds/soundJump2/soundJump2.yy",},"order":8,},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"order":12,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -90,7 +90,6 @@
     {"roomId":{"name":"Room_L1","path":"rooms/Room_L1/Room_L1.yy",},},
     {"roomId":{"name":"Room_L2","path":"rooms/Room_L2/Room_L2.yy",},},
     {"roomId":{"name":"Room_L3","path":"rooms/Room_L3/Room_L3.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_GameOver_Enemy","path":"rooms/Room_GameOver_Enemy/Room_GameOver_Enemy.yy",},},
     {"roomId":{"name":"Room_GameOver_Fall","path":"rooms/Room_GameOver_Fall/Room_GameOver_Fall.yy",},},
     {"roomId":{"name":"Room_success","path":"rooms/Room_success/Room_success.yy",},},
