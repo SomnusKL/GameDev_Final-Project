@@ -3,8 +3,8 @@
 /// @description 在此处插入描述 
 // 你可以在此编辑器中写入代码 
 
-x = oPlayer.x;
-y = oPlayer.y + 15;
+x = oPlayer.x -5;
+y = oPlayer.y + 10;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
@@ -15,9 +15,9 @@ recoil = max(0, recoil -1);
 
 if (mouse_check_button(mb_left)) && (firingdelay<0)
 {
-	recoil = 4;
-	firingdelay = 5;
-	ScreenShake(5,10);
+	recoil = 6;
+	firingdelay = 10;
+	ScreenShake(3,7);
 	audio_play_sound(soundSword,5,false);
 	with (instance_create_layer(x,y-3,"Bullets",oBullet))
 	{
