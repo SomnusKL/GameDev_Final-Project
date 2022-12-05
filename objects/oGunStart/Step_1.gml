@@ -3,8 +3,8 @@
 /// @description 在此处插入描述 
 // 你可以在此编辑器中写入代码 
 
-x = oPlayerStart.x;
-y = oPlayerStart.y + 15;
+x = oPlayerStart.x -5;
+y = oPlayerStart.y + 10;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
@@ -15,7 +15,7 @@ recoil = max(0, recoil -1);
 
 if (mouse_check_button(mb_left)) && (firingdelay<0)
 {
-	recoil = 4;
+	recoil = 6;
 	firingdelay = 10;
 	ScreenShake(5,10);
 	audio_play_sound(soundSword,5,false);

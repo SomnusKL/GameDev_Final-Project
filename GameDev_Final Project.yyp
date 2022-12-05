@@ -64,7 +64,6 @@
     {"id":{"name":"obj_L1Manage","path":"objects/obj_L1Manage/obj_L1Manage.yy",},"order":17,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
     {"id":{"name":"sRoom2","path":"sprites/sRoom2/sRoom2.yy",},"order":18,},
-    {"id":{"name":"sGun_Swipe","path":"sprites/sGun_Swipe/sGun_Swipe.yy",},"order":6,},
     {"id":{"name":"sEnemy_Run","path":"sprites/sEnemy_Run/sEnemy_Run.yy",},"order":2,},
     {"id":{"name":"sRoom","path":"sprites/sRoom/sRoom.yy",},"order":11,},
     {"id":{"name":"sPlayerx","path":"sprites/sPlayerx/sPlayerx.yy",},"order":0,},
@@ -128,6 +127,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.9.1.51",
   },
 }

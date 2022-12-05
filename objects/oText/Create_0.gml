@@ -1,5 +1,7 @@
-/// @description 在此处插入描述 
-// 你可以在此编辑器中写入代码 
+/// @des Text settings
 
-
+spd = 0.25;
+letters = 0;
+text = "This is s a test string! \n Second line here"
+length = string_length(text);
 
