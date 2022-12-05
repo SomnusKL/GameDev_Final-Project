@@ -1,6 +1,10 @@
-/// @description 在此处插入描述 
-// 你可以在此编辑器中写入代码 
+/// @des Die
 
+with (oGun) instance_destroy();
+instance_change(oPDead, true);
 
-room_goto(Room_GameOver_Enemy);
-audio_play_sound(soundFail,1,false);
+direction = point_direction(other.x, other.y, x,y);
+hsp = lengthdir_x(6,direction);
+vsp = lengthdir_y(4,direction)-2;
+
+if(sign (hsp) != 0) image_xscale = sign(hsp);

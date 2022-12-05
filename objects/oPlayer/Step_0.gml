@@ -14,7 +14,7 @@ vsp = vsp + grv;
 
 
 if(y>room_height){
-	room_goto(Room_GameOver_Fall);
+	SlideTransition(TRANS_MODE.GOTO, room);
 }
 
 if (place_meeting(x, y + 1, oWall))
