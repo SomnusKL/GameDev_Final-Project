@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oDead",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sEnemyD",
+    "path": "sprites/sEnemyD/sEnemyD.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
