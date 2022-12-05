@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oEnemyStart",
-  "spriteId": {
-    "name": "sEnemeyStart",
-    "path": "sprites/sEnemeyStart/sEnemeyStart.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
