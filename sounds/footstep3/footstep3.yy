@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "soundSword",
+  "name": "footstep3",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.51,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "soundSword.mp3",
-  "duration": 0.344917,
+  "soundFile": "footstep3.wav",
+  "duration": 0.095782,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

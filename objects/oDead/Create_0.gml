@@ -8,5 +8,5 @@ grv = 0.3;
 done = 0;
 
 hitfrom = 0;
-
+audio_play_sound(soundDead,10,false);
 ScreenShake(6,25);

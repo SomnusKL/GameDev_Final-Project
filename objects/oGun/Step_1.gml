@@ -18,9 +18,10 @@ if (mouse_check_button(mb_left)) && (firingdelay<0)
 	recoil = 4;
 	firingdelay = 5;
 	ScreenShake(5,10);
+	audio_play_sound(soundSword,5,false);
 	with (instance_create_layer(x,y-3,"Bullets",oBullet))
 	{
-		audio_play_sound(soundSword,1,false);
+		
 		speed = 25;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;

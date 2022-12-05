@@ -10,12 +10,7 @@ var move = key_right - key_left;
 hsp =  move * walksp;
 vsp = vsp + grv;
 
-/*
-if (place_meeting(x,y+1, oWall)&&(key_jump))
-{
-		vsp = -7;
-}
-*/
+
 
 
 if(y>room_height){
@@ -23,12 +18,12 @@ if(y>room_height){
 }
 
 if (place_meeting(x, y + 1, oWall))
-{
+{	
      moreJump = 1; // variable to set the maximum number of jumps, you can change the value to 2 or 3 or more if you want to add more jumps.
      if (key_jump)
 	 {
 		 vsp -= 7; //the basic one jump when you're on the ground
-		 //audio_play_sound(sound_jump,1,0);
+		 audio_play_sound(soundJump,1,false);
 	 }
 }  
 
@@ -37,8 +32,13 @@ else  {
          vsp = 0; // reset the gravity before jumping again! 
          vsp -= 5.5; // jump again
          moreJump -= 1;
-		 //audio_play_sound(sound_jump,1,0);
+	
+		 audio_play_sound(soundJump2,4,false);
     }
+}
+
+if(vsp=0)&&(place_meeting(x,y+1,oWall)){
+	audio_play_sound(soundLand,1,false);
 }
 
 
@@ -80,6 +80,9 @@ if (!place_meeting(x, y+1, oWall))
 }
 else
 {
+	if(sprite_index == sPlayer_A){
+	audio_play_sound(soundLand,6,false);	
+	}
 	image_speed = 1;
 	if (hsp ==0)
 	{

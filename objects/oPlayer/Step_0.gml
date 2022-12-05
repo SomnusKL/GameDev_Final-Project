@@ -81,7 +81,8 @@ if (!place_meeting(x, y+1, oWall))
 else
 {
 	if(sprite_index == sPlayer_A){
-	audio_play_sound(soundLand,4,false);	
+	audio_sound_pitch(soundLand, choose(0.8, 1.0, 1.2));
+	audio_play_sound(soundLand,6,false);	
 	}
 	image_speed = 1;
 	if (hsp ==0)
