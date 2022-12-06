@@ -14,6 +14,6 @@ if (hp <= 0)
 	}
 	
 	instance_destroy();
-	room_goto(Room_L1);
+	SlideTransition(TRANS_MODE.GOTO, Room_L1);
 }
 
