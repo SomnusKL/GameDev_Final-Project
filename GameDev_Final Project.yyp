@@ -71,6 +71,7 @@
     {"id":{"name":"oSign","path":"objects/oSign/oSign.yy",},"order":29,},
     {"id":{"name":"obj_L1Manage","path":"objects/obj_L1Manage/obj_L1Manage.yy",},"order":17,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
+    {"id":{"name":"xWall","path":"sprites/xWall/xWall.yy",},"order":38,},
     {"id":{"name":"sRoom2","path":"sprites/sRoom2/sRoom2.yy",},"order":35,},
     {"id":{"name":"xRoom","path":"sprites/xRoom/xRoom.yy",},"order":18,},
     {"id":{"name":"xEnemy","path":"sprites/xEnemy/xEnemy.yy",},"order":25,},
