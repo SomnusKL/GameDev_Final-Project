@@ -45,6 +45,7 @@
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},"order":8,},
     {"id":{"name":"sRoomMenu","path":"sprites/sRoomMenu/sRoomMenu.yy",},"order":40,},
     {"id":{"name":"footstep3","path":"sounds/footstep3/footstep3.yy",},"order":12,},
+    {"id":{"name":"sRoomsuccess","path":"sprites/sRoomsuccess/sRoomsuccess.yy",},"order":44,},
     {"id":{"name":"sDark","path":"sprites/sDark/sDark.yy",},"order":13,},
     {"id":{"name":"SoundSelect","path":"sounds/SoundSelect/SoundSelect.yy",},"order":15,},
     {"id":{"name":"oCameraStart","path":"objects/oCameraStart/oCameraStart.yy",},"order":16,},
