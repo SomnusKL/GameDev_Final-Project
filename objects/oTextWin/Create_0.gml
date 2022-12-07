@@ -2,4 +2,4 @@
 // 你可以在此编辑器中写入代码 
 
 
-audio_stop_sound(Background);
+//audio_stop_sound(Background);

@@ -7,4 +7,4 @@ draw_set_color(c_white);
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
 
-draw_text(room_width/2, room_height/2, "You opened the door!"+"\n Press Enter to start over");
+draw_text(room_width/2, room_height/2, "You were able to escape!"+"\n Press Enter to start over");
