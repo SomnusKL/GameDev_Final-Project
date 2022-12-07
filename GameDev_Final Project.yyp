@@ -63,6 +63,7 @@
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":28,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"sRoom2","path":"sprites/sRoom2/sRoom2.yy",},"order":39,},
+    {"id":{"name":"sBlack","path":"sprites/sBlack/sBlack.yy",},"order":41,},
     {"id":{"name":"oTextEnd_Fall","path":"objects/oTextEnd_Fall/oTextEnd_Fall.yy",},"order":9,},
     {"id":{"name":"snDeath","path":"sounds/snDeath/snDeath.yy",},"order":10,},
     {"id":{"name":"xPlayer3","path":"sprites/xPlayer3/xPlayer3.yy",},"order":23,},

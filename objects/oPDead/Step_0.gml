@@ -16,6 +16,13 @@ if(done == 0){
 	x = x + hsp;
 
 
+
+if(y>room_height){
+	alarm[0] = 60;
+	SlideTransition(TRANS_MODE.GOTO, room);
+	
+}
+
 	//Verticle Collision
 	if (place_meeting(x, y + vsp, oWall))
 	{

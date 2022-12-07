@@ -32,7 +32,8 @@ else  {
          vsp = 0; // reset the gravity before jumping again! 
          vsp -= 5.5; // jump again
          moreJump -= 1;
-	
+		 
+		 audio_play_sound(soundJump,2,false);
 		 audio_play_sound(soundJump2,4,false);
     }
 }
