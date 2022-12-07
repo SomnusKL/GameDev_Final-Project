@@ -7,6 +7,7 @@
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":43,},
     {"id":{"name":"xPlayer2","path":"sprites/xPlayer2/xPlayer2.yy",},"order":7,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":1,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":1,},
